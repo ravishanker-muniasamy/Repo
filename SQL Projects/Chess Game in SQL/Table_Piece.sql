@@ -1,4 +1,4 @@
-DROP TABLE Piece
+USE ChessDB
 GO
 CREATE TABLE Piece
 (
@@ -12,8 +12,6 @@ PieceNumber		TINYINT	NOT NULL			-- To represent multiple pieces since R, B, Kt h
 GO
 -- To Pupulate the Metadata
 
-DELETE FROM Piece
-GO
 INSERT INTO Piece
 Values (0, 'Empty', ' ', ' ',NULL, 0),		-- No Piece. This will be used to display Empty Square without any piece
 (1, 'Black King', 'B,K', 'K','B', 1),
