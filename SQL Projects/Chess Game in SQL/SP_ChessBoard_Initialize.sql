@@ -1,9 +1,4 @@
-
--- Board/New Game Initialization
-
--- EXEC SP_ChessBoard_Initialize
-
-DROP PROC SP_ChessBoard_Initialize
+USE ChessDB
 GO
 CREATE PROC SP_ChessBoard_Initialize
 AS
