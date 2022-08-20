@@ -1,7 +1,5 @@
 USE ChessDB
 -- Table to store the piece that were cut in the chess game
-
-DROP TABLE PieceMovement
 GO
 CREATE TABLE PieceMovement
 (
