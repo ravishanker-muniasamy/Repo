@@ -1,9 +1,5 @@
 USE ChessDB
 -- ChessBoard Display
-
--- EXEC SP_ChessBoard_Display 'B'
-
-DROP PROC SP_ChessBoard_Display
 GO
 CREATE PROC SP_ChessBoard_Display	@Inverted_Flag CHAR(1) = 'W'  -- Inverted Flag will be used to display the Chess board straight or Inverted.
 AS
