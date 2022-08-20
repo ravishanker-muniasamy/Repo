@@ -1,7 +1,5 @@
 USE ChessDB
 GO
-DROP PROC SP_ChessBoard_Move_Piece
-GO
 CREATE PROC SP_ChessBoard_Move_Piece  @Piece CHAR(10) = 'B,Kt,2', @Position CHAR(2) = 'a1', @Simulate BIT = 0
 AS
 BEGIN
