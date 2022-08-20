@@ -1,0 +1,27 @@
+This help file is to give you instrcutions on deploying this project into your MS SQL Server
+
+-- Database creation
+
+Step 1:
+Create ChessDB blank database in your MS SQL Server.
+
+-- Tables Creation
+
+Spte 2:
+Open Table_Piece.SQL file in SQLServer  Management Studio and Execute it against ChessDB database
+Open Table_ChessBoard.SQL file  in SQL Server Management Studio and Execute it against ChessDB database
+Open Table_NextMoves.SQL file  in SQL Server Management Studio and Execute it against ChessDB database
+Open Table_PieceMovement.SQL file in SQL Server Management Studio and Execute it against ChessDB database
+
+-- Stored Procedure Creation
+
+Step 3:
+Open the below files ony by one in the same sequence given below and execute them in SQL Server Management Studio
+SP_ChessBoard_Display.SQL
+SP_ChessBoard_Initialize.SQL
+SP_Rewind_Last_Move.SQL
+SP_Find_Recursive_Empty_Squares.SQL
+SP_ChessBoard_Move_Piece.SQL
+SP_ChessBoard_Play.SQL
+
+You are all set to play the game
