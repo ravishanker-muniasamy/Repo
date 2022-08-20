@@ -1,5 +1,9 @@
 -- Play Chess Game
+-- This file is given with sample way of executing the SQL stored procedure to Play the game. 
+
 USE ChessDB
+
+
 EXEC SP_ChessBoard_Play 'N'	-- Start a New Game
 EXEC SP_ChessBoard_Play 'M','W,P,6','c4' -- Move a Piece 
 EXEC SP_ChessBoard_Play 'M','B,P,3','c6'
