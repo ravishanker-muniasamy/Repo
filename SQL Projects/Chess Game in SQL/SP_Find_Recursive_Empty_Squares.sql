@@ -1,12 +1,6 @@
 USE ChessDB
-/*
-EXEC SP_Find_All_Valid_Moves 3, 5, 'W', 1, 0
-EXEC SP_Find_All_Valid_Moves 3, 5, 'W', 0, 1
-EXEC SP_Find_All_Valid_Moves 3, 5, 'W', -1, 0
-EXEC SP_Find_All_Valid_Moves 3, 5, 'W', 0, -1
-*/
 GO
-ALTER PROC SP_Find_All_Valid_Moves
+CREATE PROC SP_Find_All_Valid_Moves
 (@CurrentVerticalINT TINYINT, @CurrentHorizontal TINYINT, 
 @CurrentPieceSide CHAR(1),
 @VerticalIncrement SMALLINT, @HorizontalIncrement SMALLINT)
