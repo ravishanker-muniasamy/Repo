@@ -1,10 +1,3 @@
-
--- ChessBoard Display
-
--- EXEC SP_ChessBoard_Play 'DW'
-
-DROP PROC SP_ChessBoard_Play
-GO
 CREATE PROC SP_ChessBoard_Play @Action CHAR(2), @Piece CHAR(10) = 'B,Kt,2', @Position CHAR(2) = 'a1'
 AS
 BEGIN
