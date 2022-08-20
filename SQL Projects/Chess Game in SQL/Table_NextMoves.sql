@@ -1,7 +1,5 @@
 USE ChessDB
 GO
-DROP TABLE NextMoves
-GO
 CREATE TABLE NextMoves
 	(
 		Vertical			CHAR(1),	-- The Next Possible Moving Square's Vertical Alphabet
