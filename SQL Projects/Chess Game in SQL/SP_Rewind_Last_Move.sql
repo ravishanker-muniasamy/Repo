@@ -1,6 +1,6 @@
 USE ChessDB
 GO
-ALTER PROC SP_Rewind_Last_Move
+CREATE PROC SP_Rewind_Last_Move
 AS
 BEGIN
 	DECLARE	@Last_To_Vertical		CHAR(1),
