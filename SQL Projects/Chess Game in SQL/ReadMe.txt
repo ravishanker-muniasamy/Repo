@@ -2,6 +2,9 @@ This Project is for creating a simple Chess Game using SQL
 
 The recent International Chess Olympiad held at Chennai triggered a thought in me to build the game using SQL. It was little challenging and interesting to spend couple of days to complete this project. I have uploaded source code of this project to GITHUB for others to look into and provide feedback.
 
+Before Playing the game:
+You need to create ChessDB as a blank new database in your MS SQL Server and then, create all the objects given in this project like Table creation and Stored Procedure creations. Refer How to Deploy.txt file for more details
+
 How to Play the Game:
 =====================
 Open the 'Play Chess Game' File and find the Sample stored procedure command given to execute to play the game. 
