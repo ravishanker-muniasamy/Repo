@@ -1,7 +1,5 @@
 USE ChessDB
 GO
-DROP TABLE ChessBoard
-GO
 CREATE TABLE ChessBoard
 (
 Vertical			CHAR(1) NOT NULL,
